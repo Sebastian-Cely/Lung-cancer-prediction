@@ -5,6 +5,14 @@
 **Contenido del repositorio**
 
 * **data_exploration.ipybn:** Jupyter Notebook con la exploración inicial de los datos. Se realiza tareas de limpieza y visualización de los datos para preprocesar el data set y comenzar con la codificación del modelo.
+* **preprocesamiento.ipybn:** Notebook con el proceso detallado de preprocesamiento de los datos conforme a la tipología de las variables. Al final del archivo se exportan los datos trabajados en un archivo `.csv`. 
+* **modeloML**: Notebook con la exploración y comparación de modelos de aprendizaje automático. El archivo entrena y evalúa los dos modelos principales para determinar las  métricas que permitan seleccionar el más eficiente. 
+* **survey lung cancer.csv:** archivo con el dataset inicial. 
+* **lung_cancer_data_preprocessed.csv:** dataset con los datos preprocesados para entrenamiento del modelo. 
+
+## Solución propuesta: 
+
+De acuerdo con los resultados obtenidos a partir de la exploración de los datos, hasta el entrenamiento y evaluación del modelo de aprendizaje automatizado, se determina que el modelo más apropiado para una etapa de despliegue e implementación es Extra Tree Classifier.  
 
 ## 1. Descripción del problema: 
 
